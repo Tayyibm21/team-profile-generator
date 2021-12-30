@@ -1,11 +1,25 @@
 class Employee {
     constructor({ name, id, email}) {}
 
-    getName() {}
+    getName() {
+        return this.name;
+    }
 
-    getId() {}
+    getId() {
+        return this.id;
+    }
 
-    getEmail() {}
+    getEmail() {
+        return this.Email;
+    }
 
-    getRole() {}
+    getRole() {
+        return this.(Employee);
+    }
+
+    generateCard() {
+        return ``;
+    }
 }
+
+module.exports = Employee;
